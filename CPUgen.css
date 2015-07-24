@@ -1,0 +1,12 @@
+body{
+	background-color: #FFFFFF;
+	width: 100%;
+	height: 100%;
+}
+
+#generatedCPU{
+	background-color: #4F9976;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
