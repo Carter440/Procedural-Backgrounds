@@ -1,0 +1,12 @@
+body{
+	background-color: #FFFFFF;
+	width: 100%;
+	height: 100%;
+}
+
+#PerlC{
+	background-color: #FFFFFF;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
