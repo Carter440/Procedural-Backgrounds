@@ -76,7 +76,7 @@ function randVector(){
 			image.data[index] = r;
 			image.data[index + 1] = g;
 			image.data[index + 2] = b;
-			image.data[index + 3] = Math.floor(Math.abs(perl*256));
+			image.data[index + 3] = 255;//Math.floor(Math.abs(perl*256));
 		}
 	}
 	ctx.putImageData(image, 0, 0);
