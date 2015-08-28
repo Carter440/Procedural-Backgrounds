@@ -5,7 +5,6 @@ $(document).ready(function() {
 	ctx = c.getContext("2d");
 	image = ctx.getImageData(0,0,c.width,c.height);
 	var lattice = buildLattice(c.width,c.height);
-	var lettuce = buildLattice(c.width,c.height);
 function buildLattice(x,y){
 	var lattice = new Array(y);
 	for (var i = 0; i < lattice.length; i++) {
@@ -76,7 +75,7 @@ function randVector(){
 			image.data[index] = r;
 			image.data[index + 1] = g;
 			image.data[index + 2] = b;
-			image.data[index + 3] = 255;//Math.floor(Math.abs(perl*256));
+			image.data[index + 3] =255;
 		}
 	}
 	ctx.putImageData(image, 0, 0);
