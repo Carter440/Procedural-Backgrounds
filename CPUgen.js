@@ -56,7 +56,7 @@ circuit.prototype = {
 		this.ctx.arc(this.X,this.Y,3,0,2*Math.PI);
 		}
 		this.ctx.stroke();
-		this.ctx.closePath();
+
 	}
 }
 

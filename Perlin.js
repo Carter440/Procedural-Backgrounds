@@ -111,11 +111,11 @@ function perlin(x,y,grad,perm,xMax,yMax){
     return vector0 - weightY*(vector0 - vector1);
 }
 //setting octaves to loop to higher values raises the octave of noise
-    var frequency = 22;
-    var amp = 255;
+    var frequency = 100;
+    var amp = 127.5;
     //changing lacunarity or gain leads to fractal noise
-    var lacunarity = 1;
-    var gain = 1;
+    var lacunarity = 0.5;
+    var gain = 0.5;
     
     for(var octave = 0; octave < 5; octave++){
         var permut = buildPermTable(256,256);
